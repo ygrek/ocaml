@@ -1,0 +1,125 @@
+ld.lld: error: duplicate symbol: caml_code_fragments_table
+>>> defined at intext.h:199 (./caml/intext.h:199)
+>>>            fix_code.pic.o:(caml_code_fragments_table)
+>>> defined at intext.h:199 (./caml/intext.h:199)
+>>>            startup.pic.o:(.bss+0x0)
+
+ld.lld: error: duplicate symbol: caml_code_fragments_table
+>>> defined at intext.h:199 (./caml/intext.h:199)
+>>>            fix_code.pic.o:(caml_code_fragments_table)
+>>> defined at intext.h:199 (./caml/intext.h:199)
+>>>            bigarray.pic.o:(.bss+0x0)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            bigarray.pic.o:(.bss+0x10)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            bigarray.pic.o:(.bss+0x1A0)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            custom.pic.o:(.bss+0x10)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            startup.pic.o:(.bss+0x10)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            startup_aux.pic.o:(.bss+0x818)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            custom.pic.o:(.bss+0x1A0)
+
+ld.lld: error: duplicate symbol: caml_major_work_credit
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            interp.pic.o:(caml_major_work_credit)
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            custom.pic.o:(.bss+0x1A8)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            finalise.pic.o:(.bss+0x58)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            finalise.pic.o:(.bss+0x1E8)
+
+ld.lld: error: duplicate symbol: caml_major_work_credit
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            interp.pic.o:(caml_major_work_credit)
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            finalise.pic.o:(.bss+0x1F0)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            startup.pic.o:(.bss+0x1A0)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            compact.pic.o:(.bss+0x8)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            compact.pic.o:(.bss+0x198)
+
+ld.lld: error: duplicate symbol: caml_major_work_credit
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            interp.pic.o:(caml_major_work_credit)
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            compact.pic.o:(.bss+0x1A0)
+
+ld.lld: error: duplicate symbol: caml_major_ring
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            interp.pic.o:(caml_major_ring)
+>>> defined at major_gc.h:67 (./caml/major_gc.h:67)
+>>>            weak.pic.o:(.bss+0x10)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            weak.pic.o:(.bss+0x1A0)
+
+ld.lld: error: duplicate symbol: caml_major_work_credit
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            interp.pic.o:(caml_major_work_credit)
+>>> defined at major_gc.h:69 (./caml/major_gc.h:69)
+>>>            weak.pic.o:(.bss+0x1A8)
+
+ld.lld: error: duplicate symbol: caml_major_ring_index
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            interp.pic.o:(caml_major_ring_index)
+>>> defined at major_gc.h:68 (./caml/major_gc.h:68)
+>>>            startup_aux.pic.o:(.bss+0x9A8)
+
+ld.lld: error: too many errors emitted, stopping now (use --error-limit=0 to see all errors)
+clang-15: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [Makefile:202: libcamlrun_shared.so] Error 1
+make[1]: Leaving directory '/data/data/com.termux/files/home/ocaml/byterun'
+make: *** [Makefile:384: coldstart] Error 2
